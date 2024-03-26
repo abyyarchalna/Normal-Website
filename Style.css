@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&family=Heebo&family=Lato&family=Outfit&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(146, 146, 146);
+}
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(20, 20, 20),rgb(20, 20, 20));
+}
+
+.header ul li a{
+    color: white !important;
+}
+
+.header a{
+    color: white !important;
+}
+
+.header button{
+    background-color: rgb(204, 204, 204);
+}
+
+.contactusheader{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+i{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.card h5{
+    text-align: center;
+    color: white;
+}
+
+.card p{
+    text-align: center;
+    color: white;
+}
+
+.card{
+    margin: 20px 10px 40px 10px;
+    border: 1.5px solid rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+}
+
+#mana{
+    margin-right: 54px;
+    margin-left: 54px;
+}
+
+.formmain{
+    border: none;
+    border-radius: 12px;
+    margin: 80px 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 16px black;
+}
+
+.footer h2{
+    color: white;
+}
+
+.footer{
+    padding: 80px 13% 70px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background-color: rgb(8, 8, 8);
+    /* background-color: rgb(11, 11, 24); */
+}
+
+.footer-content h4{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 12px;
+}
+
+.footer-content li a{
+    display: block;
+    text-decoration: none;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0 0 0;
+}
+
+.icon a i{
+    display: inline-block;
+    font-size: 27px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon a i:hover{
+    transform: translateY(-5px);
+    color: white;
+}
+
+#validationDefault01{
+    border: 0.5px solid gray;
+}
+
+#validationDefault02{
+    border: 0.5px solid gray;
+}
+
+#validationDefaultUsername{
+    border: 0.5px solid gray;
+}
+
+#inputGroupPrepend2{
+    border: 0.5px solid gray;
+}
+
+#validationDefault03{
+    border: 0.5px solid gray;
+}
+
+#validationDefault04{
+    border: 0.5px solid gray;
+}
+
+#validationDefault05{
+    border: 0.5px solid gray;
+}
+
+#exampleInputEmail1{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    background: none;
+    border-bottom: 2px solid rgb(145, 145, 145);
+    padding: 5px;
+    width: 100%;
+}
+
+#exampleInputPassword1{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    background: none;
+    border-bottom: 2px solid rgb(145, 145, 145);
+    padding: 5px;
+    width: 100%;
+}
+
+.control{
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0px 0px 16px black;
+    margin: auto;
+}
+
+.control button{
+    width: 100%;
+}
+
+@media (max-width:877px){
+    .formmain{
+        margin: 80px 80px;
+    }
+}
+
+@media (max-width:767px){
+    .card{
+        margin: 20px 10px;
+    }
+    .formmain{
+        margin: 80px 100px;
+    }
+}
+
+@media (max-width:580px){
+    .formmain{
+        margin: 80px 70px;
+    }
+}
+
+@media (max-width:465px){
+    .formmain{
+        margin: 80px 40px;
+    }
+    .formmain button{
+        width: 100%;
+    }
+}
